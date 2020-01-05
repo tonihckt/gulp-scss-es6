@@ -1,0 +1,90 @@
+/* src/assets/styles/base/_fonts.scss  */
+
+// @font-face {
+//   font-family: 'Open Sans';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local('Open Sans Regular'), local('OpenSans-Regular'), url('../fonts/open-sans-regular.woff2') format('woff2');
+//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+// }
+
+
+// ====================================
+// Import fonts
+// ====================================
+
+// Montserrat
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
+// IBM
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:600|IBM+Plex+Sans:400,500|IBM+Plex+Serif");
+
+
+/*
+  Skranji
+*/
+
+@font-face {
+  font-family: 'Skranji';
+  font-weight: 700;
+  src: url('@~fonts/Skranji-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Skranji';
+  font-weight: 500;
+  src: url('@~fonts/Skranji-Regular.ttf');
+}
+
+$skranji: 'Skranji', sans-serif;
+
+/*
+  Nunito
+*/
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 700;
+  src: url('@~fonts/Nunito-Black.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 700;
+  src: url('@~fonts/Nunito-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 500;
+  src: url('@~fonts/Nunito-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 400;
+  src: url('@~fonts/Nunito-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 300;
+  src: url('@~fonts/Nunito-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 300;
+  src: url('@~fonts/Nunito-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 300;
+  src: url('@~fonts/Nunito-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 300;
+  src: url('@~fonts/Nunito-SemiBold.ttf');
+}
+$nunito: 'Nunito', sans-serif;

@@ -6,5 +6,5 @@
 - Fonts
 
 # Console commands
-> gulp
-> gulp watch
+* > gulp
+* > gulp watch
